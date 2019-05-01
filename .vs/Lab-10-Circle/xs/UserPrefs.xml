@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{E3D07B60-7337-462A-9335-07D1032BC227}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lab-10-Circle PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab-10-Circle/CircleApp.cs">
+    <Files>
+      <File FileName="Lab-10-Circle/Program.cs" Line="13" Column="24" />
+      <File FileName="Lab-10-Circle/Circle.cs" Line="17" Column="41" />
+      <File FileName="Lab-10-Circle/CircleApp.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab-10-Circle" expanded="True">
+            <Node name="Lab-10-Circle" expanded="True">
+              <Node name="CircleApp.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

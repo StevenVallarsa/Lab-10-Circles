@@ -1,0 +1,11 @@
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/bin/Debug/netcoreapp2.1/Lab-10-Circle.deps.json
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/bin/Debug/netcoreapp2.1/Lab-10-Circle.runtimeconfig.json
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/bin/Debug/netcoreapp2.1/Lab-10-Circle.runtimeconfig.dev.json
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/bin/Debug/netcoreapp2.1/Lab-10-Circle.dll
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/bin/Debug/netcoreapp2.1/Lab-10-Circle.pdb
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/obj/Debug/netcoreapp2.1/Lab-10-Circle.csprojAssemblyReference.cache
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/obj/Debug/netcoreapp2.1/Lab-10-Circle.csproj.CoreCompileInputs.cache
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/obj/Debug/netcoreapp2.1/Lab-10-Circle.AssemblyInfoInputs.cache
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/obj/Debug/netcoreapp2.1/Lab-10-Circle.AssemblyInfo.cs
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/obj/Debug/netcoreapp2.1/Lab-10-Circle.dll
+/Users/Steve/Projects/Lab-10-Circle/Lab-10-Circle/obj/Debug/netcoreapp2.1/Lab-10-Circle.pdb
