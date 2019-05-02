@@ -17,49 +17,72 @@ namespace Lab_10_Circle
         public void Run()
         {
 
-            Console.WriteLine("Welcome to the Circle Tester.\n");
+            Console.WriteLine("Welcome to the Circle Tester.");
 
-            bool run = true;
+            bool completeLoop = true;
             double radius = 0;
 
-            while (run)
+
+            // main loop program will run until user exits and prints created circles
+            while (completeLoop)
             {
-                Console.Write("\nPlease input a radius for your new circle: ");
 
-                try
+                bool getValidRadius = true;
+                // secondary loop to get valid circle radius
+                while (getValidRadius)
                 {
-                    string r = Console.ReadLine();
-                    radius = Convert.ToDouble(r);
-                    run = false;
+                    Console.Write("\nPlease input a radius for your new circle: ");
 
-                }
-                catch (FormatException)
-                {
-                    Console.Write("That's not a valid number. Try again ");
-                }
-            
+                    try
+                    {
+                        string r = Console.ReadLine();
+                        radius = Convert.ToDouble(r);
 
+                        if (radius <= 0)
+                        {
+                            throw new Exception("Only positive numbers greater than zero are allowed.");
+                        }
+                        else
+                        {
+                            getValidRadius = false;
+                        }
+
+                    }
+                    catch (FormatException)
+                    {
+                        Console.WriteLine("That's not a valid number. Try again.");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
+                }
+                
+                
+                // create new Circle instance with radius and add to Circle list
                 Circle c = new Circle(radius);
-
                 Circles.Add(c);
 
 
+
+                // secondary loop to get valid reply to continue or not.
                 Console.Write("\nWould you like to create another circle? (y/n) ");
                 bool runOut = true;
                 while (runOut)
                 {
-                    string cont = Console.ReadLine();
+                    string cont = Console.ReadLine().ToLower();
 
                     if (cont[0] == 'y')
                     {
                         runOut = false;
-                        run = true;
+                        completeLoop = true;
+
                     }
                     else if (cont[0] == 'n')
                     {
-
                         runOut = false;
-                        run = false;
+                        completeLoop = false;
+
                     }
                     else
                     {
@@ -67,12 +90,9 @@ namespace Lab_10_Circle
                     }
 
                 }
-
-
-
-
             }
 
+            // once user doesn't want any more circles, print results
             if (Circles.Count == 1)
             {
                 Console.WriteLine("\nGoodbye. You created 1 Circle object.\n");
@@ -83,13 +103,11 @@ namespace Lab_10_Circle
             }
 
             PrintCircles();
+
         }
 
 
-
-
-
-
+        // method to print all the Circles objects in the Circle list
         public void PrintCircles()
         {
             for (int i = 0; i < Circles.Count; i++)
@@ -103,6 +121,6 @@ namespace Lab_10_Circle
             }
 
         }
-
     }
 }
+

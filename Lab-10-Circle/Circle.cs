@@ -26,9 +26,9 @@ namespace Lab_10_Circle
 
         public void PrintInfo()
         {
-            Console.WriteLine($"The RADIUS is {radius}.");
-            Console.WriteLine($"The AREA is {GetArea()}.");
-            Console.WriteLine($"The CIRCUMFERENCE is {GetCircumference()}.");
+            Console.WriteLine($"The RADIUS is {radius}");
+            Console.WriteLine($"The AREA is {GetArea()}");
+            Console.WriteLine($"The CIRCUMFERENCE is {GetCircumference()}");
         }
 
     }
